@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #18b0ec;
+}
+li {
+    float: left;
+}
+li img{
+    text-align: left;
+    height: 40px;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:right;
+}
+.body1{
+    background-color:#18b0ec;
+    margin: 0;
+    padding: 0;
+}
+.body1 h1{
+    text-align: center;
+    color:white;
+}
+.body1 p{
+    text-align: center;
+    color:white;
+    padding: 0;
+    margin: 0;
+}
+.body2{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+}
+.body2 h4{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(218, 214, 214); 
+}
+.body2 p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(218, 214, 214); 
+}
+.youtube{
+text-align: center;
+color: white;
+background-color: black;
+}
+.youtube h3{
+    padding: 0;
+    margin: 0;
+}
+.youtube h4{
+    padding: 0;
+    margin: 0;
+}
+.youtube button{
+    font-size:20px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.imagepos{
+    position: absolute;
+    top:65%;
+    left:35%;
+    transform: translate(-50%,-50%);
+}
+span{
+    color: rgb(92, 206, 252);
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.column{
+    flex:50%;
+    padding: 10px;
+    height: 150px;
+}
+.inside{
+    margin: 15px;
+    padding: 50px;
+    border-style:solid ;
+}
+.icons{
+    font-size:15px;
+    border: solid;
+    color: black;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+    margin: 10px;
+    width: 300px;
+}
