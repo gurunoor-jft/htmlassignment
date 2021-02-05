@@ -70,7 +70,7 @@ background-color: black;
     margin: 0;
 }
 .youtube button{
-    font-size:20px;
+    font-size:40px;
     background-color: red;
     border: none;
     color: white;
@@ -81,7 +81,8 @@ background-color: black;
 }
 .imagepos{
     position: absolute;
-    top:65%;
+    font-size: 40px;
+    top:95%;
     left:35%;
     transform: translate(-50%,-50%);
 }
@@ -116,4 +117,10 @@ p{
     padding-left: 20px;
     margin: 10px;
     width: 300px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
